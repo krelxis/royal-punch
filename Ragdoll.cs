@@ -3,6 +3,7 @@ using System.Collections.Generic;
  
 [RequireComponent(typeof(Animator))] 
 [RequireComponent(typeof(PlayerController))]
+
 public class Ragdoll : MonoBehaviour
 {
     [SerializeField] private float blendSpeed;
